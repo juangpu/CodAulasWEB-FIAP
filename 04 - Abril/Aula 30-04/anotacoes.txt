@@ -1,0 +1,30 @@
+wireframe: https://wireframe.cc/hV6miD
+
+.menu__principal ul { }
+apenas ul que está dentro do elemento com a class menu__principal
+text-decoration: none; - tirar sublinhado (links)
+Fluxo original = conteúdo é exibido conforme é inserido
+Posicionar containers(elementos)
+tag html recebe conteúdo == caixa
+Flexbox == faz o posicionamento baseado no elemento PAI == é o container onde os outros elementos estão
+O elemento pai receberá a propriedade display com valor FLEX == por padrão os filhos ficarão um ao lado do outro 
+ocupando o espaço do pai == NUNCA POSSO ESQUECER = FLEX É APLICADO AO PAIIIIIIIII.
+quando elemento pai recebe a propriedade == Flex container 
+os filhos desse container são chamados de flex-items
+por padrão propriedade flex-direction: row - column (um abaixo do outro)
+alinhamento pela horizontal / vertical
+vertical = align-items = flex-start(padrão) 
+horizontal = justify-content = flex-start
+space-between ==> alinha os filhos pelas extremidades do pai
+space-around ==> alinhar os filhos pelo centro do pai
+
+Medidas
+Baseada no viewport => o tamanho da área de exibição do conteúdo de cada dispositivo 
+vh - height = 1vh = 1% = 10vh = 10%==> 100vh == 100%
+vw - largura   1vw = 1%    10vw  = 10%       100vw == 100%
+
+Imagem de fundo ==> background-image: url();
+imagem de fundo por padrão repete 
+background-repet: no-repet;
+
+

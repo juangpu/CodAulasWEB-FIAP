@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Semântica</title>
+</head>
+<body>
+    <!-- cabeçalho da página - filho direto do body
+    class container - define como será o container
+    genérica - podesrá ser utilizada por todos
+
+    header__page - específica para o header
+    com algumas alterações da container 
+    -->
+    <header class="container header__page">
+        <h2>Olá, eu sou um header</h2>
+    </header>
+
+    <!-- conteúdo principal da página
+    main  - boa prática - apenas uma main por página -->
+    
+    <main class="container wrapper">
+        <h2>Aqui começa o conteúdo principal</h2>
+
+        <!-- receber um conteúdo independente
+        se apenas esse conteúdo faz sentido e pode
+        ser reutilizado em uma outra página ou outra
+        área da mesma página, ele deve estar em um 
+        article. -->
+        <article class="container new__article">
+            <h2 class="new__article__title">Sou um article - conteúdo independente</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis obcaecati aperiam eum voluptatum sapiente neque deleniti dignissimos officiis, at voluptatibus adipisci ipsa nemo. Autem culpa aspernatur fugit, voluptatibus earum, velit veniam nulla at, nam dolores praesentium! Natus, officiis itaque laborum quidem omnis beatae recusandae accusantium in magnam asperiores quis aperiam cumque, soluta ex sed nam deserunt doloribus, nobis doloremque id rem commodi explicabo tenetur. Dolorum, modi cum! Odit perspiciatis eaque quia assumenda, commodi animi ipsam repudiandae repellat, architecto, cumque mollitia debitis suscipit soluta veritatis quasi odio cupiditate quis modi. Expedita corrupti enim beatae! Sequi ex eum animi officiis saepe eius natus officia, quam exercitationem fugit. Ullam perspiciatis reprehenderit minus possimus voluptates quae cum debitis ratione praesentium accusamus, expedita earum! Distinctio quisquam quidem deleniti obcaecati laudantium, exercitationem soluta eveniet aliquam reprehenderit, suscipit, dolore sequi! Reiciendis, harum esse. Eligendi enim soluta facere error neque quas impedit porro doloribus voluptatem, debitis perferendis? Dolor voluptatum recusandae, quis ex nam repellendus illo enim laudantium? Facere repudiandae id laudantium quidem necessitatibus accusantium enim inventore, voluptates, voluptatum ea quasi temporibus, consequatur obcaecati rem eaque. Alias possimus reiciendis odit veritatis ipsum fugiat, modi adipisci maiores saepe ad dolores tempore distinctio excepturi debitis, illo nostrum assumenda ipsa reprehenderit provident.
+            </p>
+
+        </article>
+
+        <!-- receber conteúdos relacionados e que sozinhos
+        não fazem sentido -->
+        <h2>A section tem conteúdos dependentes</h2>
+        <section class="container new__section">
+            
+            <div class="new__section__item">
+                <img src="./images/Startup_Iso.svg" alt="StartUp de viagens espaciais">
+                <h3>Lorem Ipsum</h3>
+            </div>
+
+            <div class="new__section__item">
+                <img src="./images/Startup_Mono.svg" alt="Lançamento do foguete XPTO-II">
+                <h3>Lorem Ipsum</h3>
+            </div>
+
+            <div class="new__section__item">
+                <img src="./images/Web_Developer.svg" alt="Desenvolvedor Fron-End">
+                <h3>Lorem Ipsum</h3>
+            </div>
+        </section>
+
+        <!-- aside = conteúdo complementar  - Na maioria das
+        vezes ele fica ao lado conteúdo e aponta para alguns
+        links -->
+        <h2>Section com um aside</h2>
+        <section class="container new__section">
+            <div class="text__content">
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore sapiente magni porro eius praesentium, fugit unde veniam adipisci ea harum dolor provident. Hic nobis animi facere quod dolorum sunt tenetur delectus pariatur numquam dignissimos alias sed soluta officia praesentium natus voluptates qui voluptatibus distinctio eaque inventore unde sapiente, totam quasi earum! Repudiandae dignissimos dolores, architecto perferendis nisi omnis veritatis expedita officia corporis nobis suscipit sequi cumque mollitia dolorem perspiciatis laudantium.
+                </p>
+            </div>
+            <aside class="text__links">
+                <h3>Conteúdo relacionado</h3>
+                <nav>
+                    <ul>
+                        <li><a href="">links</a></li>
+                        <li><a href="">links</a></li>
+                        <li><a href="">links</a></li>
+                        <li><a href="">links</a></li>
+                    </ul>
+                </nav>
+            </aside>
+        </section>
+    </main>
+    <!-- rodapé da página -->
+    <footer class="container footer__page">
+        <h2>Olá, sou um footer</h2>
+    </footer>
+
+</body>
+</html>

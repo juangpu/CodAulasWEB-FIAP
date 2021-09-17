@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: #D9EAF2;
+    font-family: 'IBM Plex Sans', sans-serif;
+    padding: 0.625rem;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    text-transform: uppercase;
+}
+
+/* classe container - montadora de containers */
+.container {
+    width: 95%;
+    min-height: 100vh;    
+    margin: 0.625rem auto;
+    padding: 0.625rem;
+    border-radius: 0.4375rem;
+}
+
+.header__page,
+.footer__page {
+    background-color: #a5d5ee;
+    min-height: 10vh;
+    display: flex;
+    align-items: center;    
+}
+
+.wrapper {
+    background-color: #8ec7e6;
+}
+
+.new__article,
+.new__section {
+    background-color: #D9EAF2; 
+    min-height: 40vh;   
+    font-weight: 900;
+    line-height: 1.75rem;
+}
+
+.new__article__title {
+    margin-bottom: 0.625rem;
+    padding-bottom: 0.625rem;
+    border-bottom: 1px solid #8ec7e6;
+}
+
+
+/* complementação do new__section  */
+.new__section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.new__section__item {
+    width: 32%;
+    min-height: 18.75rem;
+    border: 1px solid #8ec7e6;
+    border-radius: 0.4375rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.new__section__item img {
+    width: 70%;
+}
+
+/* section e aside */
+.text__content,
+.text__links {
+    width: 70%;
+    min-height: 30vh;
+    border: 1px solid #8ec7e6;
+    border-radius: 0.4375rem;
+    padding: 0.625rem;
+}
+
+.text__links {
+    width: 25%;
+    text-align: center;
+}
+
+/* media queries - será aplicada a telas que vão de 1px até 990px */
+@media(max-width:990px){
+
+    .new__section__item {
+        width: 100%;
+        margin-bottom: 0.625rem;
+    }
+
+    .text__content,
+    .text__links {
+        width: 100%;
+        margin-bottom: 0.625rem;
+    }
+
+    .text__links {
+        min-height: 20vh;
+    }
+
+}

@@ -1,0 +1,15 @@
+wireframe: https://wireframe.cc/hV6miD
+
+figure == é a mesma coisa que uma div, só que ele tem semântica
+container semântico para receber imagens (video - audio) - se fizesse com div funcionaria
+figcaption - título associado a uma imagem,ou conjunto de imagens, dentro de um figure
+só usar figcaption dentro de figure
+
+.galeria - irá receber o flexbox para posicionar os elementos
+quando usamos flexbox os elementos, automaticamente, ficam um ao lado outro
+O flexbox assume o controle dos elementos - ele tb ignorará as dimensões definidas aos elementos
+flex-direction: row - ficam em linha
+flex-direction: column
+flex-wrap ==> controla a quebra da linha - PADRÃO NAO TEM QUEBRA
+flex-wrap: nowrap; 
+flex-wrap: wrap; == NÃO COUBE NA LINHA, PONHA O RESTANTE NA LINHA ABAIXO

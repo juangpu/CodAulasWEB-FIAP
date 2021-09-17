@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+body {
+    font-size: 16px;
+    font-family: calibri;
+}
+
+.cabecalho {
+    height: 100px;
+    background: rgb(132, 87, 250);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 25%;
+    height: 50vh;
+    font-size: 3em;
+}
+
+.secao1 {
+    background-color: rgb(116, 12, 34);
+}
+
+.secao2 {
+    background-color: rgb(40, 176, 160);
+}
+
+
+/* media queries para telas menores */
+/* DESKTOP MOBILE REGRA BÁSICA
+COMEÇAR DA TELA MAIOR PARA A MENOR
+SEMPRE USAR MAX-WIDTH */
+
+@media(max-width: 1024px) {
+    
+    .box {
+        width: 50%;        
+        font-size: 2em;
+    }
+}
+
+@media(max-width: 600px){    
+    .box {
+        width: 100%;
+        font-size: 1em;
+    }
+}

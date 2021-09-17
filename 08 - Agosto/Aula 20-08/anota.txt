@@ -1,0 +1,72 @@
+Unidade de medida:
+px - é uma unidade fixa - mão muda, não altera, elemento sempre o valor que foi definido
+font-size: 50px == SEMPRE TERÁ 50PX - PARA ALTERAR DEVEMOS MUDAR O CÓDIGO
+
+% - uma unidade relativa - tem como referência o tamanho do elemento pai 
+pai{ width: 90%;}
+filho {width: 100%;}  == o filho terá uma largura de 100% dos 50% de onde o pais está inserido
+
+vw - unidade relativa - tem como referência o viewport (largura)
+10vw == representa 10% da largura do viewport
+
+vh - unidade relatiba - tem como referência o viewport (altura)
+10vh == representa 10% da altura do viewport
+viewport == área de exibição de conteúdo no dispostivo que está acessando o recurso(page).
+
+quem pega o viewport = <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+
+EM == medida que foi criada na indústria gráfica = representa o tamanho da letra M
+representa a distância que a letra M tem das demais
+
+usamos EM na WEB - o EM é representado pelo tamanho da fonte do elemento pai
+pai = font-size: 20px;
+filhos = 2em = 2em * 20px = 40px;
+Legal , maisssssssss
+se vc esquecer de definir o tamanho da fonte do elemento pai,
+ele irá pegar do pai do pai (subir na hierarquia), 
+não encontrando usa o padrão que está no definido no navegador (16px)
+
+main {
+    font-size: 10px;
+}
+
+article {
+    /* font-size: 20px; */
+}
+
+article p {
+    font-size: 3em;
+}
+
+REM - mesmo conceito do EM, só que ele usa como
+padrão o tamanho da fonte do elemento root(raiz da página)
+TAG HTML. Definir um valor de texto para essa tag
+
+font-size - padding - margin
+
+Design responsivo
+Seu layout responde a telas diferentes - breakpoints
+breakpoints   - pontos de quebra - eles são usados para definir um tamanho, uma escala de tamanho da tela
+conforme um novo breakpoint - nós temos uma nova regra CSS
+breakpoints são aplicados nas Media Queries - 
+Essa regra não é para toda a página - apenas para os elementos que precisam ser alterados.
+
+pilares = media queries - uso de medidas flexíveis - imagens flexíveis
+
+
+max-width = largura máxima = o maior tamanho de tela dentro do breakpoint
+max-width: 500px - largura máxima é 500px == 
+ESSA REGRA SERÁ APLICADA APENAS PARA TELAS ENTRE 1 - 500
+
+min-width = largura mínima = o menor tamanho de tela dentro do breakpoint
+min-width: 501px - largura mínima é 501px
+ESSA REGRA SERÁ APLICADA APENAS PARA TELAS ENTRE 501............................
+
+or - and - only
+tipo de dispositivo
+orientação
+
+
+
+
+

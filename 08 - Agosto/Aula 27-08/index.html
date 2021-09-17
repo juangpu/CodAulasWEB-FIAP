@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários - Componentes Básicos</title>
+
+        <!-- CSS INTERNA - NÃO FAÇA ISSO -->
+        <style type="text/css">
+
+            body {
+                font-family: calibri;
+            }
+
+            div{
+                margin-bottom: 15px;
+            }
+        </style>
+
+
+</head>
+<body>
+    <h1>Formulários</h1>
+    <form action="" id="formDados" name="formDados" method="post">
+
+       <div>
+        <label for="usuario">Usuário: </label>
+       <input type="text" id="usuario" name="usuario"
+        placeholder="Ex: Fulano de Tal" maxlength="20"
+        minlength="10" required autofocus>
+        </div>
+
+        <div>
+            <label for="senha">Senha: </label>
+            <input type="password" name="senha" id="senha"
+            placeholder="Ex: 123456" maxlength="15" 
+            minlength="10" required >
+        </div>
+
+        <div>
+            <label for="dataViagem">Data da viagem:</label>
+            <input type="date" id="dataViagem" name="dataViagem"
+            required>
+        </div>
+
+        <div>
+            <label for="">Aeroporto:</label>
+
+            <input type="radio" name="aeroporto" id="aeroporto1" value="1">
+            <label for="aeroporto1">Congonhas</label>
+
+            <input type="radio" name="aeroporto" id="aeroporto2" value="2">
+            <label for="aeroporto2">Guarulhos</label>
+
+            <input type="radio" name="aeroporto" id="aeroporto3" value="3">
+            <label for="aeroporto3">Viracopos</label>
+
+            <input type="radio" name="aeroporto" id="aeroporto4" value="4">
+            <label for="aeroporto4">Tom Jobim</label>
+
+        </div>
+
+        <div>
+            <label for="">Serviços adicionais: </label>
+            <input type="checkbox" name="servicos" id="servicos1" value="1" >
+
+            <label for="servicos1">Aluguel de carro</label>
+            <input type="checkbox" name="servicos" id="servicos2" value="2" >
+
+            <label for="servicos2">Seguro saúde</label>
+            <input type="checkbox" name="servicos" id="servicos3" value="3" >
+
+            <label for="servicos3">Transfer Hotel</label>
+            <input type="checkbox" name="servicos" id="servicos4" value="4" >
+
+            <label for="servicos4">Passeios adicionais</label>
+        </div>
+
+        <div>
+            <label for="cidade">Cidade de destino: </label>
+            <select name="cidade" id="cidade">
+                <option value="0" disabled selected>Selecione sua cidade</option>
+                <option value="1">Londres</option>
+                <option value="2">Roma</option>
+                <option value="3">Madri</option>
+                <option value="4">Berlin</option>
+            </select>
+        </div>
+        <div>
+            <input type="submit" value="Enviar dados">
+        </div>
+        </form>
+</body>
+</html>

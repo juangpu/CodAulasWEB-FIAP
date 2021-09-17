@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 325px;
+    height: 250px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: purple;
+}
+
+h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: purple;
+}

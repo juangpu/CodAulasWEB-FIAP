@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #D9EAF2;
+    font-family: 'IBM Plex Sans', sans-serif;
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    text-transform: uppercase;
+}
+
+/* classe container - montadora de containers */
+.container {
+    width: 95%;
+    min-height: 100vh;    
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.header__page {
+    background-color: #a5d5ee;
+    min-height: 10vh;
+    display: flex;
+    align-items: center;    
+}
+
+.wrapper {
+    background-color: #8ec7e6;
+}
+
+.new__article,
+.new__section {
+    background-color: #D9EAF2; 
+    min-height: 40vh;   
+    font-weight: 900;
+    line-height: 28px;
+}
+
+.new__article__title {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #8ec7e6;
+}
+
+/* complementação do new__section  */
+.new__section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.new__section__item {
+    width: 32%;
+    min-height: 300px;
+    border: 1px solid #8ec7e6;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.new__section__item img {
+    width: 70%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

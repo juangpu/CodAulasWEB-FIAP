@@ -1,0 +1,39 @@
+div deve ter um tamanho
+largura  - px 
+altura - px (1px == 1ponto)
+cor de fundo == background-color  TODOS OS ELEMENTOS
+
+Se  não definir a largura da div, ela ocupará todo os espaço da linha
+pq a div é um elemento BLOCK  - ocupa todo o espaço na linha
+e não permite que nenhum conteúdo fique ao seu lado
+
+se a altura não for definida, o elemento terá como altura o seu conteúdo
+px  é uma media fixa == 500px será em qualquer tela
+
+% - medida relativa - relação a algum elemento
+no exemplo a div está no body - proporção pela janela do navegador
+
+conceito na construçao do elemento
+BLOCK
+INLINE - deixa o conteúdo na mesma linha pois ele não respeita largura e altura definida
+ele define como altura e largura o tamanho do conteúdo
+display  é a propriedade que muda o comportamento inicial dos ELEMENTOS
+
+inline - ficasse ao lado uma da outra
+block - respeitasse o tamanho
+inline-block
+
+float -flutuação na tela (right / left)
+caso tenha espaço disponível o elemento abaixo tb flutuará
+para que isso não aconteça esse elemento que herdou a flutuação,
+ deve receber a propriedade clear com os valores: left - right - both 
+
+margin - define a distância externa entre os elementos
+4 margins == top - right - bottom - left 
+1 valor    == todas as margens
+2 valores ==  1- top/bottom - 2- right/left
+3 valores == 1- top  2-right/left  3-bottom
+4 valores ==   1top - 2right - 3bottom - 4left 
+margin = 10px
+
+

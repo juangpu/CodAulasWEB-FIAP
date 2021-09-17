@@ -1,0 +1,65 @@
+atalho para 4 divs com h2 e lorem
+div*4>h2>lorem5
+
+
+body {
+    background-color: #666;
+}
+
+
+Seletores - elementos que recebem formatação
+
+seletor de tag --> quando fazemos a formatação ela será aplicada a todos os elementos desse seletor no  HTML
+div { regra css; } --> todas as div do HTML usarão essa formatação
+
+border - contorno do elementos
+mesmo padrão das margens - top - right - bottom - left
+boder-width - espessura  da borda
+border-style - estilo da borda
+border-color - cor da borda - não definiu assume a cor preta
+
+border-width: 10px;
+border-style: solid;
+border-color: #900;    
+
+border: 10px solid #900;
+
+padding - preenchimento == distância entre a borda ou a extremidade para o conteúdo
+padding tb é chamado de margem interna
+possui as mesmas propriedades de margem 
+top - right - bottom - left
+quando usamos padding, o valor a ele atribuído, será adicionado
+à largura e/ou altura
+box-sizing == aplicação do padding sem permitir que o elemento
+tenha a sua largura/altura alteradas
+usou padding - use box-sizing: border-box
+**************************************************************************************************************
+
+Seletor de id
+id == identificador  dos elementos HTML
+HTML atributo global (todas as tags podem ter) id="nomeIdentificador"
+atributos receberm valores.
+ids não podem e não devem ser repetidos na mesma página
+não posso ter o mesmo valor de um id em outro ou outros
+um nome que tem relação ao elemento 
+camelCase ==> primeira-Div = segundaDiv
+Na CSS # seguido do nome da div
+**************************************************************************************************************
+
+Seletor de class
+class CSS == regra de formatação que pode ser aplicada a qualquer elemento
+                      ela pode ser repetida no código
+HTML atributo global class ==> class="nome__class"
+BEM normalização para nomes de classes CSS
+Na CSS a classe é representada pelo ponto final (.) seguido do nome
+
+BEM - Bloco - Elemento - Modificador
+nomeBloco__elementoBloco
+
+
+
+
+
+
+
+

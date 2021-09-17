@@ -1,0 +1,19 @@
+/* body {
+    background-color: rgb(184, 45, 45);
+} */
+
+/* formatar a div  */
+div {
+    margin: 10px auto;
+    width: 50%;
+    height: 250px;
+    background-color: #999;
+    display: block;
+    /* float: left; */
+    padding: 10px;
+    ;
+    }
+
+    h1 {
+        clear: both
+    }

@@ -1,0 +1,38 @@
+div {
+    width: 40%;
+    height: 200px;
+    margin: 10px;
+    /* background-color: #900; */
+    border: 1px solid #900;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#primeiraDiv {
+    width: 400px;
+    background-color: #900; 
+}
+
+#segundaDiv {
+    background-color: #f60;
+}
+
+#terceiraDiv {
+    background-color: #369;
+}
+
+.texto__formatar {
+    color: #999;
+    text-align: center;
+    font-size: 22px;
+}
+
+.texto__sublinhar {
+    text-decoration: underline;
+}
+
+
+.texto__paragrafo {
+    font-size: 14px;
+    font-family: calibri;
+}

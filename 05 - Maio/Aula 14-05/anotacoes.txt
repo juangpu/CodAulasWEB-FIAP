@@ -1,0 +1,5 @@
+wireframe: https://wireframe.cc/hV6miD
+quando um container se transforma em um flex container
+os seus filhos ficam por padrão um ao lado outro(SEMPRE)
+flex-direction: row (padrão em linha)
+mudar para column - um abaixo do outro

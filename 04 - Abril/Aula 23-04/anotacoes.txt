@@ -1,0 +1,19 @@
+wireframe: https://wireframe.cc/hV6miD
+fizemos o header no html - topo da página
+Navegador ele já tem uma margem estabelecidade
+Mudar  de browser p/ browser
+Reset CSS - zerar algumas formatações do Navegador
+para aplicar as nossas e dessa forma tentar uma 
+compatibilidade maior entre navegadores
+normalize css 
+https://necolas.github.io/normalize.css/
+https://meyerweb.com/eric/tools/css/reset/
+
+reset simples - resolver problema - USE
+Antes de começar as regras CSS == RESET
+* asterísco - seletor universal - todos elementos da página
+zerar - margin - padding - box-sizing 
+
+https://fontawesome.com/ - icones
+escolher - clicar para copiar o html - Servidor que sabe onde estão as classes desses ícones
+CDN - replica conteúdo 

@@ -1,0 +1,14 @@
+wireframe: https://wireframe.cc/hV6miD
+a classe container - controla como um container deve ser - largura + altura + imagem de fundo
+reutilizaremos essa classe container ==> todos os demais containers iguais
+classe será reutilizada => classe genérica == formatações mais comuns, assim evita a redigitação código
+classes mais especialistas ==> modifificarão algo na aplicação da classe genérica
+
+background-attachment = scroll ==> a imagem de fundo acompanha o scroll (PADRÃO)
+fixed ==> a imagem de fundo fica fixa enquanto o scroll estiver acontecendo
+
+position - definir a posição do elemento você pode alterar mais 5 propriedades
+top - bottom - letf - right - z-index(profundidade) 
+o elemento com maior z-index fica na "frente" dos outros  z-index:  9999
+padrão static == todo elemento já tem por padrão COM STATIC AS PROPRIEDADE QUE SÃO GANHAS NÃO SÃO ALTERADAS
+position fixed == fixa o elemento

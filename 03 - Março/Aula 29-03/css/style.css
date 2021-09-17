@@ -1,0 +1,40 @@
+/* chamada das fonts do Google */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Open+Sans:wght@300&display=swap');
+h1 {
+    color: rgb(29, 107, 209);
+    font-size: 40px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+/* sinal de vírgula agrupa seletores */
+h2, h3 {
+    font-family: 'Fira Sans', sans-serif;
+    color: #dc143c;
+  }
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(65, 62, 62);
+    /* text-align: left; */
+    /* text-decoration: none; */
+    /* text-transform: capitalize; */
+    /* text-indent: 150px; */
+    /* letter-spacing:  10px; */
+    word-spacing: 1px;
+    line-height: 30px;
+}
+
+img {
+    /* largura */
+    width: 350px;
+    /* altura */
+    height: 250px;
+}
+
+
+
+/* p:hover {
+    text-shadow: 20px 20px 5px #999;    
+} */

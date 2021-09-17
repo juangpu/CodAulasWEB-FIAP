@@ -1,0 +1,40 @@
+position - posicionamento original do elemento.
+por padrão todo elemento tem position static
+
+static - fixed - relative - absolute - sticky
+quando vc aplicar o position (menos stati)
+vc vai definir a nova posição que ele irá ficar:
+top - bottom - left - right
+top - bottom - Eixo Y
+left - right - Eixo x
+
+Define tb "profundidade" 
+z-index - definir um valor - quanto maior valor
+mais a frente ele estará
+
+fixed:  fixa um elemento na tela. 
+(Ganha um novo contexto de exibição) 
+Cuidado, se existir algum elemento abaixo dele,
+esse elemento ocupará o espaço que era do 
+elemento que recebeu o position. 
+
+relative: Posicionar o elemento conforme a sua
+posição inicial.
+
+sticky - Posiciona de forma a acompanhar o 
+scroll de tela do container pai.
+
+absolute: Define um novo posicionamento
+utilizando o body da página ou o container
+pai como referência para a sua nova posição.
+Ele também cria um contexto próprio, assim o 
+seu espaço será ocupado pelos conteúdos abaixo.
+
+
+Regra Geral
+Se o pai não tem nenhum position, diferente de
+static, o container usará o body como referência
+para a sua nova posição. 
+
+Se o pai tem postions, o container usará ele como
+referência para a sua nova posição
