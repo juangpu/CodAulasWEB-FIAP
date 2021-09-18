@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Urbanist', sans-serif;
+}
+
+/* CSS PARA A MAIOR TELA - PADRÃO */
+.header {
+    width: 95%;
+    min-height: 80vh;
+    margin: 20px auto;
+    background-image: url(../images/praia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+}
+
+.header__title {
+    margin: 20px 0;
+    font-size: 3rem;
+}
+
+.header__text {
+    width: 35vw;
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+
+.header__link {
+    width: 30vw;
+    padding: 20px 0;
+    margin: 20px 0;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 15px 50px;
+    font-size: 3rem;
+}
+
+.wrapper {
+    width: 95%;
+    min-height: 100vh;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 24%;
+    min-height: 50vh;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.card img {
+    border-radius: 7px 7px 0 0;
+    width: 100%;
+}
+
+.card__title {
+    padding-left: 10px;
+    margin: 10px 0;
+    font-size: 1.5rem;
+}
+
+.card__text {
+    padding-left: 10px;
+    margin: 10px 0;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.card__link {
+    margin: 15px 10px;
+    width: 100px;
+    height: 50px;
+    background-color: #dc143c;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card__link a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+/* FIM DA CSS PARA TELA MAIOR */
+
+/* MEDIAS - TELA MAIOR PARA A MENOR  USAR 
+SEMPRE max-width */
+
+/* regra será aplicada a telas de 0 até 1024px */
+@media(max-width: 1024px){
+    .header {
+        align-items: center;
+    }
+
+    .header__text {
+        width: 40vw;
+        font-size: 1.3rem;
+        text-align: center;
+        line-height: 2rem;
+    }
+
+    .header__link {
+        width: 38vw;
+    }
+
+    .card {
+        width: 48%;
+    }
+}
+
+/* essa regra sera aplicada a telas de no máximo 790px */
+@media(max-width: 790px){
+    .header {
+        padding: 0;
+    }
+
+    .header__text {
+        width: 45vw;
+        font-size: 1.1rem;
+        line-height: 1.6rem;
+    }
+      .header__link {
+          width: 43vw;
+           font-size: 2.8rem;
+      }
+
+      .card {
+          width: 100%;
+      }
+}
+
+@media(max-width: 640px){
+  .header__text {
+     font-size: 1rem;
+      line-height: 1.3rem;
+  }
+
+   .header__link {       
+       font-size: 2rem;
+   }
+}
+
+@media(max-width: 450px){
+
+    .header__title{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+      .header__text {
+        width: 65vw;
+      }
+
+      .header__link {
+          font-size: 1.3rem;
+          width: 40vw;
+      }
+}
