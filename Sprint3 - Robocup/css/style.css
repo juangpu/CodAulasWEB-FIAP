@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
 
+/* CORES: */
+/* BRANCO (WHITE), CINZA (#333), PRETO (BLACK) e AMARELO (#dab30c) */
+
 * {
     box-sizing: border-box;
 }
@@ -144,7 +147,7 @@ section > h4 {
 }
 
 .CadastoSubmit:hover{
-    color: orange;
+    color: #dab30c;
 }
 
 .Email {
@@ -173,6 +176,66 @@ section > h4 {
     color: #0000CD;
     font-weight: bold;
 }
+
+
+
+/* EQUIPE CARDS */
+
+
+.cards {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+}
+
+.card__box {
+    border: 1px solid white;
+    width: 31%;
+    height: 75vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    background-color: #333;
+    color: white;
+}
+
+.card__titulo {
+    font-size: 23px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+.card__paragrafo {
+    width: 60%;
+    font-size: 20px;
+    line-height: 36px;
+    margin-bottom: 25px;
+}
+
+.imagem_card {
+    width: 120px;
+    height: 120px;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+
+/* GALERIA DE IMAGENS */
+
+.container_imagens {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagens_alinhadas {
+    width: 200px;
+    height: 240px;
+}
+
+
 
 /* RESPONSIVIDADE */
 
@@ -242,5 +305,34 @@ section > h4 {
     }
     #Facebook {
         font-size: 7px;
+    }
+}
+
+@media (max-width: 600px) {
+    .cards {
+        display: flex;
+        flex-direction: column;
+    }
+    .card__box {
+        width: 80vw;
+        height: 100vw;
+    }
+    .imagem_card {
+        width: 60px;
+        height: 60px;
+        padding: 10px;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container_imagens {
+        display: flex;
+        flex-direction: column;
+    }
+    .imagens_alinhadas {
+        width: 75vw;
+        height: 90vw;
+        padding: 2px;
     }
 }
