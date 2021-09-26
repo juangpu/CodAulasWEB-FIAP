@@ -59,7 +59,7 @@ header{
 }
 
 .item_header:hover {
-    color: #878787;
+    color: #333;
 }
 
 
@@ -106,16 +106,9 @@ section > h4 {
 
 /* CONTATO */
 
-.paginaCadastro{
-    background-color: white;
-}
-
-
 .formCadastro1{
     background-color: #333;
-    /* width: 73%;  */
     border-radius: 10px;
-    /* height: 800px; */   
 }
 
 .h1Cadastro{
@@ -123,11 +116,12 @@ section > h4 {
     padding-top: 17px;
     color: white;
 }
+
 .formCadastro{
     text-align: center;
     box-sizing: border-box;
-  
 }
+
 .Cadasto{
     padding: 20px;
     border: none;
@@ -180,35 +174,7 @@ section > h4 {
     font-weight: bold;
 }
 
-.smallText{
-    color: white;
-}
-
-.Forgot{
-    padding-top: 5px;
-    color: white;
-
-}
-
-.smallText:hover{
-    color: orange;
-    text-decoration: none;
-}
-.Forgot:hover{
-    color: orange;
-    text-decoration: none;
-    
-}
-.Login:hover{
-    color: orange;
-    text-decoration: none;
-}
-.linkCadastro{
-    text-decoration: none;
-    color:white
-}
-
-
+/* RESPONSIVIDADE */
 
 @media (max-width: 1200px) {
     .right {
@@ -269,3 +235,12 @@ section > h4 {
         font-size: 15px;
     }
 } */
+
+@media (max-width: 600px) {
+    #Google {
+        font-size: 7px;
+    }
+    #Facebook {
+        font-size: 7px;
+    }
+}
