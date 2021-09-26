@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    /* display: flex; */
+}
+
+
+/* HEADER */
+
+body ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+header{
+    height: 8vw; 
+    background-color: #dab30c;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    /* margin: 0vw 0vw 0 0vw;    */
+}
+
+/* LOGO HEADER */
+
+.logo{
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+}
+
+/* ITENS MENU HEADER */
+
+.itensMenu{
+    display: flex;
+}
+
+.topicos{
+    margin-left: 30px;
+    margin-top: 65px;
+    font-size: 17px;
+}
+
+.item_header {
+    color: black;
+    text-decoration: none;
+    font-weight: 550;
+}
+
+.item_header:hover {
+    color: #878787;
+}
+
+
+/* INDEX */
+
+.container-sobre {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+/* LEFT */
+
+.left {
+    width: 12vw;
+    height: 100%;
+}
+
+/* MAIN */
+
+.main {
+    width: 76vw;
+    height: 100%;
+    color: black;
+}
+
+.content {
+    margin: 35px;
+    margin-top: 50px;
+    /* overflow: hidden; */
+}
+
+section > h4 {
+    text-decoration: underline
+}
+
+/* RIGHT */
+
+.right {
+    width: 12vw;
+    height: 100%;
+}
+
+
+/* CONTATO */
+
+.paginaCadastro{
+    background-color: white;
+}
+
+
+.formCadastro1{
+    background-color: #333;
+    /* width: 73%;  */
+    border-radius: 10px;
+    /* height: 800px; */   
+}
+
+.h1Cadastro{
+    text-align: center;
+    padding-top: 17px;
+    color: white;
+}
+.formCadastro{
+    text-align: center;
+    box-sizing: border-box;
+  
+}
+.Cadasto{
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    margin:10px;
+    opacity: 0.9;
+    width: 30%;
+}
+
+.CadastoSubmit{
+    padding: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    margin:10px;
+    opacity: 0.9;
+    width: 25%;
+}
+
+.CadastoSubmit:hover{
+    color: orange;
+}
+
+.Email {
+  width: 62.5%;
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color:white;
+  margin:10px;
+  opacity: 0.9;
+  width: 64.4%;
+}
+
+#Register{
+    width: 62.5%;
+}
+
+#Google{
+    width: 37%;
+    color: #FF0000;
+    font-weight: bold;  
+}
+
+#Facebook{
+    width: 37%;
+    color: #0000CD;
+    font-weight: bold;
+}
+
+.smallText{
+    color: white;
+}
+
+.Forgot{
+    padding-top: 5px;
+    color: white;
+
+}
+
+.smallText:hover{
+    color: orange;
+    text-decoration: none;
+}
+.Forgot:hover{
+    color: orange;
+    text-decoration: none;
+    
+}
+.Login:hover{
+    color: orange;
+    text-decoration: none;
+}
+.linkCadastro{
+    text-decoration: none;
+    color:white
+}
+
+
+
+@media (max-width: 1200px) {
+    .right {
+        display: none;
+    }
+
+    .left {
+        display: none;
+    }
+
+    .main {
+        width: 100vw;
+    }
+}
+
+@media (max-width: 1200px) {
+    .nav {
+        display: flex;
+    }
+    .itensMenu {
+        flex-direction: column;
+    }
+    header {
+        height: 55vw;
+    }
+    .logo {
+        height: 80px;
+        width: 80px;
+        margin-top: 20px;
+    }
+    .topicos {
+        margin-bottom: 1px;
+        margin-top: 7px;
+        padding: 2px;
+        font-size: 15px;
+    }
+}
+
+/* @media (min-width: 566px) {
+    .nav {
+        display: flex;
+    }
+    .itensMenu {
+        flex-direction: column;
+    }
+    header {
+        height: 30vw;
+    }
+    .logo {
+        height: 80px;
+        width: 80px;
+        margin-top: 20px;
+    }
+    .topicos {
+        margin-bottom: 1px;
+        margin-top: 7px;
+        padding: 2px;
+        font-size: 15px;
+    }
+} */
