@@ -1,0 +1,35 @@
+JavaScript = desenvolvido em 1995 - NetScape 
+JavaScript dar um pouco de interação ao HTML através de eventos do usuário(click - movimenta janela - pressiona tecla)
+HTML  = Camada de conteúdo
+CSS = Camada de apresentação
+JavaScript = Camada de comportamento
+Os três acima forman - Camadas básicas de desenvolvimento web
+JavaScript era uma linguagem exclusiva web - requisição da página  = JavaScript é interpretado pelo browser
+Não confundir com Java não é a mesma coisa
+estruturas básicas = if - switch - for - do while - do - forEach -
+quase todos os operadores são iguais nas duas linguagens.
+Case sensitive 
+Ponto vírgula da linha opcional 
+Variáveis não tem tipo
+
+console do navegador 
+ click direito - inspecionar  - Console  OU f12 Console
+ escrever comando JS no console
+ console exibe erros
+
+
+ Variáveis  em JS não tem tipo  - 
+ JS tem tipagem automática = insere valor ele tipa
+
+
+let = variável de bloco (ESCOPO) - pode mudar valor
+const =  variável de bloco (ESCOPO)   - não pode mudar valor 
+var = global = pode criar em qq lugar e reutilizar - mais antigo - evite usar
+
+
+
+ TEMPLATE STRING - INICAR E FINALIZAR COM CRASE ``
+ VC PODE ESCREVER TUDO DENTRO DAS CRASES
+ CHAMAR ALGUMA VARIÁVEL - ${VARIÁVEL}
+
+
