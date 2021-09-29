@@ -1,5 +1,5 @@
-const registro = document.getElementById('Register');
+// const registro = document.getElementById('Register');
 
-registro.onclick = function () {
-    swal ("Obrigado!", "Mensagem enviada.", "success")
-};
+// registro.addEventListener("submit", function() {
+//     swal ("Obrigado!", "Mensagem enviada.", "success")
+// })

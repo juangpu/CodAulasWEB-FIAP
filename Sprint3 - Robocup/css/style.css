@@ -25,6 +25,7 @@ body ul{
 }
 
 header{
+    box-shadow: 0px 3px 2px #333;
     height: 8vw; 
     background-color: #dab30c;
 }
@@ -95,9 +96,9 @@ header{
     /* overflow: hidden; */
 }
 
-section > h4 {
+/* section > h4 {
     text-decoration: underline
-}
+} */
 
 /* RIGHT */
 
@@ -106,6 +107,23 @@ section > h4 {
     height: 100%;
 }
 
+/* IMAGENS HARDWARE */
+
+.imgHardware {
+    width: 65vw;
+}
+
+/* IMAGEM ARMA */
+
+.imgArma {
+    width: 65vw;
+}
+
+/* IMAGEM APRESENTAÇÃO WALL-E */
+
+.imgApresentacao {
+    width: 65vw;
+}
 
 /* CONTATO */
 
