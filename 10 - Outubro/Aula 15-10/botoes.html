@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+            integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+        <title>Introdução JavaScript</title>
+    </head>
+
+    <body>
+        <h1 class="bg-info p-5 mb-3 text-light">Javascript</h1>
+        <div class="container">
+
+            <div class="my-3">
+                <button class="btn btn-info" id="btn-1"> Click </button>
+                <button class="btn btn-info" id="btn-2"> Double Click </button>
+                <button class="btn btn-info" id="btn-3"> MouseOver </button>
+                <button class="btn btn-info" id="btn-4"> MouseOut </button>
+            </div>
+
+
+            <!-- alterando conteúdo HTML -->
+            <div class="my-3">
+                <input type="text" name="" id="dados">
+                <button class="btn btn-info" id="alterarConteudo">Alterar</button>
+                <div id="conteudo">Vou Mudar</div>
+            </div>
+
+            <!-- inserindo tag criada no JS dentro do HTML -->
+            <div class="my-3">
+                <input type="text" name="" id="novosDados">
+                <button class="btn btn-info" id="insereConteudo">Inserir</button>
+                <div id="novaTag"></div>
+            </div>
+        </div>
+        <!-- chamada do JS -->
+        <script src="./js/botoes.js"></script>
+        <script src="./js/alterar.js"></script>
+        <script src="./js/inserir.js"></script>
+    </body>
+</html>
