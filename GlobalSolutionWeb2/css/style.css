@@ -67,14 +67,14 @@ header {
 }
 
 .item2{
-    margin-left: 25px;
+    /* margin-left: 25px; */
     font-size: 17px;
     display: flex;
     align-items: center;
 }
 
 .item3{
-    margin-left: 25px;
+    /* margin-left: 25px; */
     font-size: 17px;
     display: flex;
     align-items: center;
@@ -190,6 +190,11 @@ header {
   width: 64.4%;
 }
 
+.imagens_final {
+    width: 32vw;
+    height: 22vw;
+}
+
 /* FINAL - FOOTER */
 
 .rodape {
@@ -285,17 +290,18 @@ header {
     }
 }
 
-@media (max-width: 1200px) {
-    
-    header {
-        display: none;
+@media (max-width: 510px) {
+    .item_header {
+        font-size: 15px;
     }
-    
-    /* .item_header {
-        font-size: 10px;
-    } 670px max-width
 
-    .item1 {
-        margin-left: -100px;
-    } */
+    .menu {
+        margin: 0px 0px 0px 0px;
+    }
+}
+
+@media (max-width: 350px) {
+    .item_header {
+        font-size: 10px;
+    }
 }
